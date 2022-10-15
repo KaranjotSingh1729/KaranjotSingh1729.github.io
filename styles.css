@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    width: 95%;
+    font-size: 14pt;
+}
+
+p {
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.main {
+    position: fixed;
+    top: 48%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -350px;
+}
+
+.error {
+    position: fixed;
+    top: 48%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -130px;
+}
+
+.name {
+    font-size: 72pt;
+    font-weight: 900;
+}
+
+.icons {
+    font-size: 36pt;
+    color: whitesmoke;
+    word-spacing: 15px;
+}
+
+.icons a:hover {
+    color: rgb(189, 189, 189);
+    transition: ease-in 170ms;
+    cursor: pointer;
+}
+
+.back {
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+.back a:hover {
+    color: rgb(189, 189, 189);
+    transition: ease-in 170ms;
+    cursor: pointer;
+}
